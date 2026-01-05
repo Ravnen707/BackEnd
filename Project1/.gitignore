@@ -1,0 +1,47 @@
+# Ignore build outputs
+**/bin/
+**/obj/
+/src/bin/
+/src/obj/
+/tests/bin/
+/tests/obj/
+
+# Test results
+**/TestResults/
+/tests/**/TestResults/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Coverage & reports
+*.coverage
+*.coveragexml
+coverage/**
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+
+# Other
+artifacts/
+
+# Keep launchSettings out of repository (environment specific)
+src/Properties/launchSettings.json
